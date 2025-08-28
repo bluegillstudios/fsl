@@ -11,10 +11,9 @@ def ensure_qemu():
     if os.path.exists(QEMU_EXE):
         return QEMU_EXE
 
-    print("QEMU not found. Downloading...")
+    print("QEMU not found. Downloading... (This is a necessary step for FSL to run distros)")
     os.makedirs(QEMU_DIR, exist_ok=True)
 
-    # Windows precompiled QEMU zip (latest stable release)
     url = "https://qemu.weilnetz.de/w64/2025/qemu-w64-setup-20250210.exe"  # 2/10/25 release
     local_path = os.path.join(QEMU_DIR, "qemu-installer.exe")
 

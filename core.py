@@ -1,7 +1,7 @@
 import sys
 import os
-from manager import list_distros, install_distro
-from shell import run_distro
+from .manager import list_distros, install_distro
+from .shell import run_distro
 
 def ensure_dirs():
     os.makedirs("FSL/distros", exist_ok=True)

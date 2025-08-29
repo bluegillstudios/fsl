@@ -9,7 +9,7 @@ DISTROS = {
     },
     "alpine": {
         "rootfs_url": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-minirootfs-3.14.0-x86_64.tar.gz",
-        "kernel_url": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/vmlinuz-lts",
+        "kernel_url": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/netboot/vmlinuz-lts",
     }
 }
 
